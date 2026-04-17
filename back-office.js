@@ -81,7 +81,7 @@ form.addEventListener("submit", function (e) {
   })
     .then((response) => {
       if (response.ok) {
-        alert("Save Obj");
+        alert(idU ? "Modifica effettuata con successo" : "Save Obj");
         form.reset();
       } else {
         throw new Error("il server ha rifiutato l'obj");
