@@ -31,8 +31,8 @@ const getDt = function () {
                 <p class="card-text">${details.description}</p>
                 <p class="card-text">${details.brand}-${details.price}$</p>
                 <div class="d-flex justify-content-center gap-3">
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-                <button class="btn btn-primary" onclick="deleteObj()">🗑️Elimina</button>
+                <a href="./back-office.html?id=${details._id}" class="btn btn-info">✏️Modify</a>
+                <button class="btn btn-primary" onclick="deleteObj()">🗑️Delete</button>
                 </div>
             </div>
         </div>
